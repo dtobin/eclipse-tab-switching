@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="org.dtobin.tabswitching.commands.category"
+            name="Tab Switching">
+      </category>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab1"
+            name="Select Editor Tab 1">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab2"
+            name="Select Editor Tab 2">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab3"
+            name="Select Editor Tab 3">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab4"
+            name="Select Editor Tab 4">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab5"
+            name="Select Editor Tab 5">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab6"
+            name="Select Editor Tab 6">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab7"
+            name="Select Editor Tab 7">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectTab8"
+            name="Select Editor Tab 8">
+      </command>
+      <command
+            categoryId="org.dtobin.tabswitching.commands.category"
+            id="org.dtobin.tabswitching.commands.selectLastTab"
+            name="Select Last Editor Tab">
+      </command>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab1SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab1">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab2SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab2">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab3SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab3">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab4SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab4">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab5SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab5">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab6SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab6">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab7SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab7">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.numeric.Tab8SelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectTab8">
+      </handler>
+      <handler
+            class="org.dtobin.tabswitching.handlers.LastTabSelectionHandler"
+            commandId="org.dtobin.tabswitching.commands.selectLastTab">
+      </handler>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab1"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+1">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab2"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+2">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab3"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+3">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab4"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+4">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab5"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+5">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab6"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+6">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab7"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+7">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectTab8"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+8">
+      </key>
+      <key
+            commandId="org.dtobin.tabswitching.commands.selectLastTab"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M3+9">
+      </key>
+   </extension>
+
+</plugin>

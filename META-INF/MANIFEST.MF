@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tabswitching
+Bundle-SymbolicName: org.dtobin.tabswitching;singleton:=true
+Bundle-Version: 1.0.0.4
+Bundle-Activator: org.dtobin.tabswitching.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: David Tobin
